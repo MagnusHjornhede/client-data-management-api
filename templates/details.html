@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h2>Customer Details</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Customer Name</th>
+                <th>Details</th>
+                <th>Address</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for detail in details %}
+            <tr>
+                <td>{{ detail[0] }}</td>
+                <td>{{ customers[detail[0]-1][1] }}</td>
+                <td>{{ detail[2] }}</td>
+                <td>{{ detail[3] }}</td>
+                <td>{{ detail[4] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

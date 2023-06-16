@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include the Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Client Data</h1>
+
+        <!-- Navigation Menu -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/areas">Areas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/customers">Customers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/notes">Notes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contracts">Contracts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/details">Customer Details</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/invoices">Invoices</a>
+            </li>
+        </ul>
+
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Include the Bootstrap JS (optional) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
