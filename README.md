@@ -11,7 +11,7 @@ The application demonstrates a simple backend architecture combining:
 
 The system allows users to view and manage data related to client areas, customers, notes, contracts, details, and invoices.
 
----
+<br>
 
 ## Features
 
@@ -56,7 +56,7 @@ Shows invoice data including:
 - invoice amount
 - due date
 
----
+<br>
 
 ## Technology Stack
 
@@ -64,7 +64,7 @@ Shows invoice data including:
 - **Flask**
 - **SQLite**
 
----
+<br>
 
 ## Prerequisites
 
