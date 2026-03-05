@@ -11,8 +11,6 @@ The application demonstrates a simple backend architecture combining:
 
 The system allows users to view and manage data related to client areas, customers, notes, contracts, details, and invoices.
 
-<br>
-
 ## Features
 
 The application provides multiple views for browsing client-related data.
@@ -56,15 +54,11 @@ Shows invoice data including:
 - invoice amount
 - due date
 
-<br>
-
 ## Technology Stack
 
 - **Python**
 - **Flask**
 - **SQLite**
-
-<br>
 
 ## Prerequisites
 
