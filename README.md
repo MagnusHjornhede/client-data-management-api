@@ -1,15 +1,70 @@
 # Client Data Management
 
-Client Data Management is a web application built with Flask and SQLite for managing client information. It allows you to view and manage data related to client areas, customers, notes, contracts, details, and invoices.
+Client Data Management is a lightweight web application built with **Flask** and **SQLite** for managing structured client information.
+
+The application demonstrates a simple backend architecture combining:
+
+- REST-style routing
+- CRUD database operations
+- relational data management
+- server-side rendering with Flask
+
+The system allows users to view and manage data related to client areas, customers, notes, contracts, details, and invoices.
+
+---
 
 ## Features
 
-- View client areas: Displays a table of client areas with their corresponding IDs and area names.
-- View customers: Shows a table of customer data, including IDs, names, and contact information.
-- View notes: Displays a table of notes related to clients, with timestamps and details.
-- View contracts: Shows a table of contract information, including contract IDs, start dates, and end dates.
-- View details: Displays customer details, such as IDs, names, addresses, and phone numbers.
-- View invoices: Shows a table of invoices associated with clients, including invoice IDs, amounts, and due dates.
+The application provides multiple views for browsing client-related data.
+
+### Client Areas
+Displays a table of client areas including:
+
+- area ID
+- area name
+
+### Customers
+Shows customer information such as:
+
+- customer ID
+- customer name
+- contact information
+
+### Notes
+Displays notes associated with clients including:
+
+- timestamps
+- note details
+
+### Contracts
+Provides contract records including:
+
+- contract ID
+- start date
+- end date
+
+### Details
+Displays extended customer information:
+
+- addresses
+- phone numbers
+
+### Invoices
+Shows invoice data including:
+
+- invoice ID
+- invoice amount
+- due date
+
+---
+
+## Technology Stack
+
+- **Python**
+- **Flask**
+- **SQLite**
+
+---
 
 ## Prerequisites
 
